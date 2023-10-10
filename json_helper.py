@@ -20,8 +20,8 @@ import csv
 #     json.dump(merged_data, outfile, indent=4)
 
 
-with open('data.json', 'w', encoding='utf-8') as outfile:  
-    merged_data = json.load(outfile, indent=4)
+with open('data.json', 'r', encoding='utf-8') as outfile:  
+    merged_data = json.load(outfile)
 
 csv_file = 'medical_data.csv'
 
