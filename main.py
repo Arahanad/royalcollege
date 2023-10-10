@@ -126,7 +126,7 @@ class ROYALCOLLAGE():
         while True:
             try:
                 driver = uc.Chrome()
-                driver.get('https://www.capterra.com/')
+                driver.get('https://www.royalcollege.com/')
                 cookies = driver.get_cookies()
                 time .sleep(3)
                 cookies_dict = {}
