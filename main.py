@@ -126,7 +126,7 @@ class ROYALCOLLAGE():
         while True:
             try:
                 driver = uc.Chrome()
-                driver.get('https://www.royalcollege.com/')
+                driver.get('https://rclogin.royalcollege.ca/webcenter/portal/rcdirectory_en/RCDirectorySearch')
                 cookies = driver.get_cookies()
                 time .sleep(3)
                 cookies_dict = {}
